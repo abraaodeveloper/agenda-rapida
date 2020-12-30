@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333030</color>
+    <color name="colorPrimaryDark">#1A1818</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrincipal">#D81B60</color>
+    <color name="corteste">#C3D99E</color>
+    <color name="corTabSelect">#FFFFFF</color>
+    <color name="corTabNormal">#BBFFFF</color>
+
+</resources>

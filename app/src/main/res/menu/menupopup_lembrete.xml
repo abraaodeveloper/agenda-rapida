@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemConpatilhar"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_share_cinza_24dp"
+        android:title="Compartilhar"/>
+    <item
+        android:id="@+id/itemEditar"
+        android:title="Editar"
+        android:icon="@drawable/ic_edit_cinza_24dp"/>
+    <item
+        android:id="@+id/itemExcluir"
+        android:title="Excluir"
+
+        android:icon="@drawable/ic_delete_cinza_24dp"/>
+</menu>

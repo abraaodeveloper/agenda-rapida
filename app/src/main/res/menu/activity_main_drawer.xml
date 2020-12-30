@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHorario"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Horário" />
+        <item
+            android:id="@+id/menuNotas"
+            android:icon="@drawable/ic_check_black_24dp"
+            android:title="Notas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+    </group>
+
+    <item android:title="Ferramentas">
+        <menu>
+            <item
+                android:id="@+id/menuCalc"
+                android:title="Calculadora" />
+        </menu>
+    </item>
+
+    <item android:title="Partilhar">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+    <item android:title="Configurações"
+        android:icon="@drawable/ic_menu_manage">
+        <menu>
+            <item
+                android:id="@+id/menuConConta"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="Conta" />
+            <item
+                android:id="@+id/menuConfApp"
+                android:icon="@drawable/ic_settings_applications_black_24dp"
+                android:title="App" />
+        </menu>
+    </item>
+
+</menu>
